@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href="image/facebook.png" type="image/png" sizes="16x16">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+<link rel="stylesheet" href="css/style.css">
+<title>Facebook clone</title>
+</head>
+<body>
+   <div class="facebook_nav ">
+       <nav class="fixed-top">
+           <div class="logo">
+               <i class="fa fa-bars" onclick="openNav()"></i>
+            <a href="index.html">
+                <img src="image/logo.png" alt="logo" class="logoimg">
+                <img src="image/facebook.png" alt="logo" class="logooneimg">
+
+            </a>
+            
+           </div>
+           <div class="search">
+            <form action="">
+                <div class="input-group ">
+                  <input type="text" class="form-control" placeholder="Search here . . ." aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <!-- <input type="submit" value="Search" class="input-group-text btn"> -->
+                    <button type="submit" class="input-group-text btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+                  </div>
+                </div>
+              </form>
+           </div>
+           <div class="profile">
+            <a href="index.html">
+                <div class="icon">
+                    <i class="fa fa-home"></i>
+                </div>
+               </a>
+               <a href="friends.html">
+                <div class="icon">
+                    <i class="fa fa-users"></i>
+                </div>
+               </a>
+               <a href="profile.html">
+                <div class="icon">
+                   <div class="user">
+                    <img src="image/pro.png" alt="user" class="userimg"> <span class="nam pt-2 pl-2">Atanu</span>
+                   </div>
+                </div>
+               </a>
+
+           </div>
+       </nav>
+
+   </div>
+   
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="userdet">
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/1.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/2.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/3.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/6.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/64-1.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/4.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/admin.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            
+        </div>
+        <div class="ads">
+            <div class="row">
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+            </div>
+        </div>
+      </div>
+    <div class="post">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="proimg">
+                    <img src="image/profile/cover.jpg" alt="" class="coverimg">
+                </div>
+               
+                <div class="row boo">
+                   
+                        <div class="proo">
+                            <img src="image/profile/profile.jpg" alt="" class="profileimg">
+                            
+                            
+                        </div>
+                        <h3 class="p-2">Atanu Jana</h3>
+                        
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row sharepost">
+                <div class="col-md-8 col-12 mx-auto mb-5">
+                    <div class="card p-2">
+                        <form >
+                        <div class="cardtop">
+
+                            <div class="cardtoppro">
+                                <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/admin.jpg" alt="user" class="urimg"> 
+                            </a>
+                            
+                           </div>
+                            </div>
+                            <div class="cardform pl-3">
+                                
+                                    <div class="form-group pt-2">
+                                       <input type="text" class="form-control" name="msg" placeholder="Whats in your mind ? " autocomplete="off" required>
+                                    </div>
+                                
+                            </div>
+                            
+
+                        </div>
+                        <hr class="hrr">
+                        <img id="blah" src=""  class="previmg" />
+                        <div class="smallbox pl-3 pr-3">
+                            <div class="boxitem">
+                                <label for="file">
+                                    <i class="fa fa-file-image-o" aria-hidden="true"></i> <span>Photo</span>
+                                    <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png" style="display: none;" onchange="readURL(this);">
+                                </label>
+                                
+                                
+                            </div>
+                            <div class="boxbut">
+                                <button class="btn btn-success">Send</button>
+                            </div>
+
+
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-12 mx-auto mb-3">
+                    <div class="card p-2 polink">
+                        <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/admin.jpg" alt="user" class="urimg"> <span class="pt-2 pl-2">Atanu Jana</span>
+                            </a>
+                            
+                        </div>
+                       <div class="textimg">
+                           <a href=""><p class=" pt-3 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptas.</p></a>
+                        <a href=""><img src="image/postimg/placeholder-2.png" alt="post" class="pstimg"></a>
+                       </div>
+                       <div class="likes p-2">
+                       <div class="like">
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span> 0 &nbsp; Likes</span>
+                       </div>
+                        <div class="com">
+                            <a href="">
+                                <i class="fa fa-commenting-o" aria-hidden="true"></i> <span> 0 &nbsp;Comments</span>
+
+                            </a>
+                            
+                        </div>
+                       </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 mx-auto mb-3">
+                    <div class="card p-2 polink">
+                        <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/2.jpg" alt="user" class="urimg"> <span class="pt-2 pl-2">Atanu Jana</span>
+                            </a>
+                            
+                        </div>
+                       <div class="textimg">
+                        <a href=""><p class=" pt-3 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptas.</p></a>
+                        <a href=""><img src="https://cdn.pixabay.com/photo/2021/07/26/01/47/woman-6493189__340.jpg" alt="post" class="pstimg"></a>
+                       </div>
+                       <div class="likes p-2">
+                        <div class="like">
+                           <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span> 0 &nbsp; Likes</span>
+                            </div>
+                             <div class="com">
+                                 <a href="">
+                                     <i class="fa fa-commenting-o" aria-hidden="true"></i> <span> 0 &nbsp;Comments</span>
+     
+                                 </a>
+                                 
+                             </div>
+                       </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 mx-auto mb-3">
+                    <div class="card p-2 polink">
+                        <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/2.jpg" alt="user" class="urimg"> <span class="pt-2 pl-2">Atanu Jana</span>
+                            </a>
+                            
+                        </div>
+                       <div class="textimg">
+                        <a href=""><p class=" pt-3 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptas.</p></a>
+                        <a href=""><img src="https://cdn.pixabay.com/photo/2021/07/19/16/04/pizza-6478478__340.jpg" alt="post" class="pstimg"></a>
+                       </div>
+                       <div class="likes p-2">
+                        <div class="like">
+                           <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span> 0 &nbsp; Likes</span>
+                            </div>
+                             <div class="com">
+                                 <a href="">
+                                     <i class="fa fa-commenting-o" aria-hidden="true"></i> <span> 0 &nbsp;Comments</span>
+     
+                                 </a>
+                                 
+                             </div>
+                       </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 mx-auto mb-3">
+                    <div class="card p-2 polink">
+                        <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/2.jpg" alt="user" class="urimg"> <span class="pt-2 pl-2">Atanu Jana</span>
+                            </a>
+                            
+                        </div>
+                       <div class="textimg">
+                        <a href=""><p class=" pt-3 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptas.</p></a>
+                        <a href=""><img src="https://cdn.pixabay.com/photo/2021/08/03/14/31/storks-6519599__340.jpg" alt="post" class="pstimg"></a>
+                       </div>
+                       <div class="likes p-2">
+                        <div class="like">
+                           <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span> 0 &nbsp; Likes</span>
+                            </div>
+                             <div class="com">
+                                 <a href="">
+                                     <i class="fa fa-commenting-o" aria-hidden="true"></i> <span> 0 &nbsp;Comments</span>
+     
+                                 </a>
+                                 
+                             </div>
+                       </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 mx-auto mb-3">
+                    <div class="card p-2 polink">
+                        <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/2.jpg" alt="user" class="urimg"> <span class="pt-2 pl-2">Atanu Jana</span>
+                            </a>
+                            
+                        </div>
+                       <div class="textimg">
+                        <a href=""><p class=" pt-3 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptas.</p></a>
+                        <a href=""><img src="image/postimg/placeholder.png" alt="post" class="pstimg"></a>
+                       </div>
+                       <div class="likes p-2">
+                        <div class="like">
+                           <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span> 0 &nbsp; Likes</span>
+                            </div>
+                             <div class="com">
+                                 <a href="">
+                                     <i class="fa fa-commenting-o" aria-hidden="true"></i> <span> 0 &nbsp;Comments</span>
+     
+                                 </a>
+                                 
+                             </div>
+                       </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 mx-auto mb-3">
+                    <div class="card p-2 polink">
+                        <div class="postuser">
+                            <a href="" >
+                                <img src="image/avatar/1.jpg" alt="user" class="urimg"> <span class="pt-2 pl-2">Atanu Jana</span>
+                            </a>
+                            
+                        </div>
+                       <div class="textimg">
+                        <a href=""><p class=" pt-3 p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptas.</p></a>
+                        <a href=""><img src="image/postimg/placeholder-3.png" alt="post" class="pstimg"></a>
+                       </div>
+                       <div class="likes p-2">
+                        <div class="like">
+                           <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span> 0 &nbsp; Likes</span>
+                            </div>
+                             <div class="com">
+                                 <a href="">
+                                     <i class="fa fa-commenting-o" aria-hidden="true"></i> <span> 0 &nbsp;Comments</span>
+     
+                                 </a>
+                                 
+                             </div>
+                       </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <script src="js/main.js"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

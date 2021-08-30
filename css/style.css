@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+::-webkit-scrollbar{
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(199, 194, 194);
+  }
+.facebook_nav{
+    
+    width: 100%;
+    padding: 10px 30px;
+    height: 100px;
+    box-shadow: 0px 3px 1px grey;
+  
+   
+    
+}
+.facebook_nav nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+}
+.logo{
+    flex-basis: 20%;
+    
+}
+.search{
+    flex-basis: 50%;
+}
+
+.logoimg{
+    width: 120px;
+    height: 90px;
+    
+}
+.logooneimg{
+    display: none;
+    width: 45px;
+    height: 45px;
+margin-left: 5px;
+}
+.search .input-group {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 30px;
+    background:rgb(221, 221, 221);
+    margin: auto;
+    padding: 3px;
+    
+  }
+
+  .search .form-control {
+    border: 0 !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    background:rgb(221, 221, 221);
+    margin: 2px;
+  }
+
+  .search .input-group-text {
+    width: auto;
+    background:none;
+    margin: 2px;
+    border: 0 !important;
+    color: #fff;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    
+  }
+
+  /* @media (max-width:870px) and (min-width: 750px) {
+    .search .input-group {
+      margin-left: -50px;
+    }
+
+  } */
+  .fa{
+      font-size: 23px;
+      color: #000000;
+  }
+  .fa-bars{
+      margin-top: 10px;
+      margin-right: 5px;
+      cursor: pointer;
+  }
+
+  .icon{
+
+      width: 45px;
+      height: 45px;
+      
+      display:grid ;
+      margin: 0 3px ;
+      place-items: center;
+      background-color: rgb(221, 221, 221);
+      border-radius: 50%;
+  }
+  .profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 30%;
+  }
+  .profile a{
+    color:#000000;
+  }
+  .profile a:hover{
+    color:#000000;
+    text-decoration: none;
+   
+  }
+.profile a:hover .icon{
+    box-shadow: 0px 3px 5px rgb(90, 90, 226);
+}
+.userimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user{
+    display: flex;
+}
+
+@media (max-width:1000px) {
+    .user span{
+        display: none;
+    }
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 110px;
+    left: 0;
+    background-color: ghostwhite;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.oneuser{
+    display: flex;
+  
+   padding: 7px 25px 7px;
+   
+}
+.oneuser:hover{
+    background-color: #fff;
+}
+.urimg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.userdet a{
+    color: #000000;
+}
+.userdet a:hover{
+    color: #000000;
+}
+.userdet{
+    width: 100%;
+    height: 320px;
+    overflow-y: auto;
+}
+.ads{
+    padding: 10px;
+}
+.adimg{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.online{
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: -7px;
+}
+.postuser{
+    display: flex;
+}
+.polink a{
+    color:#000000;
+}
+.polink a:hover{
+    text-decoration: none;
+    color:#000000;
+}
+.pstimg{
+    padding: 5px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.likes{
+    display: flex;
+    justify-content: space-around;
+}
+.post{
+    width: 100%;
+    height: auto;
+    background-color: rgb(213, 213, 228);
+   
+    padding: 50px 0;
+}
+.post .card{
+border: none;
+box-shadow: 0 3px 3px rgb(156, 207, 236);
+}
+
+@media (max-width:900px) {
+    .logo{
+        display: flex;
+    }
+    .logoimg{
+        display: none;
+        
+    }
+    .logooneimg{
+        display: block;
+       
+    }
+    .facebook_nav{
+        height: 80px;
+    }
+    .sidenav{
+        top: 70px;
+    }
+}
+.textimg a{
+    color: #000000;
+}
+.textimg a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.fa-thumbs-o-up{
+    cursor: pointer;
+}
+.storyimg{
+width: 100%;
+height: 300px;
+border-radius: 15px;
+object-fit: cover;
+}
+.myimg{
+    width: 55px;
+    height: 55px;
+   
+    margin-top: -60px;
+   z-index: 999999;
+    
+}
+.urimg{
+    width: 55px;
+    height: 55px;
+    z-index: 999999;
+       
+        object-fit: cover;
+}
+.imgstory{
+    width: 230px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* profile  */
+
+.proimg{
+    width: 100%;
+    height: 300px;
+    
+}
+.coverimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.proo{
+   
+   margin-top: -70px;
+ 
+   border: 5px solid white;
+   border-radius: 50%;
+}
+.profileimg{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+   
+    
+}
+.sharepost .card{
+   
+    border: none;
+width:100%;
+height: auto;
+}
+.cardtop{
+    display: flex;
+    
+}
+.cardform .form-control{
+    border: none !important;
+
+}
+.cardform .form-control:focus{
+    box-shadow: none !important;
+}
+.hrr{
+    height: 2px !important;
+    background-color: rgba(243, 242, 242,0.5);
+}
+.smallbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    border: none;
+    border-radius: 0;
+    padding: 8px 25px;
+}
+.fa-file-image-o{
+    color: firebrick;
+    font-size: 20px;
+}
+.previmg{
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    object-fit: cover;
+}
+#blah{
+    display: none;
+}
+.boo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* postdetails  */
+
+.postdet{
+    width: 100%;
+   height: auto;
+    background-color: ghostwhite;
+    padding: 50px 0;
+}
+.postdet .card{
+    border: none;
+    border-radius: 0;
+}
+.detimg{
+    width: 100%;
+    height: 400px;
+}
+
+.postuser a{
+    color: black;
+}
+
+.postuser a:hover{
+    
+    text-decoration: none;
+}
+.msgbox .form-control{
+    border: none !important;
+}
+
+.msgbox .form-control:focus{
+    box-shadow: none !important;
+}
+.msgpost{
+    width: 100%;
+    height: 550px;
+    overflow-y: scroll;
+}
+.msgitems{
+    display: flex;
+}
+.avtarmsg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.msggt{
+    margin-left: 3px;
+    padding: 7px;
+    width: 70%;
+    background-color: rgb(174, 214, 228);
+}
+.spanit{
+    
+    font-size: 13px;
+}
+.msggt p{
+    font-size: 14px;
+}
+
+
+
+
+/* friends  */
+
+.boxwraper{
+    width: 100%;
+    height: 550px;
+    overflow-y: scroll;
+}
+.boxwraper .card{
+    box-shadow: 0 12px 12px blueviolet;
+}
+.fdimg{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+border-radius: 12px;
+}
+
+.boxwrp{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.coll-3{
+    flex-basis: 33%;
+    min-width: 170px;
+    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.37);
+}
+.coll-3 a{
+    color: #000;
+}
+.coll-3 a:hover{
+    text-decoration: none;
+}

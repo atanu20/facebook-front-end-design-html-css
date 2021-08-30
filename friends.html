@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href="image/facebook.png" type="image/png" sizes="16x16">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+
+<link rel="stylesheet" href="css/style.css">
+<title>Facebook clone</title>
+</head>
+<body>
+   <div class="facebook_nav ">
+       <nav class="fixed-top">
+           <div class="logo">
+               <i class="fa fa-bars" onclick="openNav()"></i>
+            <a href="index.html">
+                <img src="image/logo.png" alt="logo" class="logoimg">
+                <img src="image/facebook.png" alt="logo" class="logooneimg">
+
+            </a>
+            
+           </div>
+           <div class="search">
+            <form action="">
+                <div class="input-group ">
+                  <input type="text" class="form-control" placeholder="Search here . . ." aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <!-- <input type="submit" value="Search" class="input-group-text btn"> -->
+                    <button type="submit" class="input-group-text btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+                  </div>
+                </div>
+              </form>
+           </div>
+           <div class="profile">
+               <a href="index.html">
+                <div class="icon">
+                    <i class="fa fa-home"></i>
+                </div>
+               </a>
+               <a href="friends.html">
+                <div class="icon">
+                    <i class="fa fa-users"></i>
+                </div>
+               </a>
+               <a href="profile.html">
+                <div class="icon" >
+                   
+                    <div class="user">
+                        <img src="image/pro.png" alt="user" class="userimg"> <span class="nam pt-2 pl-2">Atanu</span>
+                       </div>
+                   
+                </div>
+               </a>
+
+           </div>
+       </nav>
+
+   </div>
+   
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="userdet">
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/1.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/2.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/3.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/6.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/64-1.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/4.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            <a href="">
+                <div class="oneuser">
+                    <div class="online"></div>
+                    <img src="image/avatar/admin.jpg" alt="user" class="urimg">
+                    <h5 class="pt-1 pl-3">Atanu Jana</h5>
+                </div>
+            </a>
+            
+        </div>
+        <div class="ads">
+            <div class="row">
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+                <a href="">
+                    <img src="image/ad-150x150-1.jpg" alt="" class="adimg">
+                </a>
+            </div>
+        </div>
+      </div>
+    <div class="postdet">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-12 mx-auto mb-4">
+                   
+                        <div class="card boxwraper p-2">
+                            <h4 class="text-center">All Friends</h4>
+                            
+                                <div class="boxwrp">
+                                    
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    <div class="coll-3">
+                                        <a href="profile.html">
+                                            <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                        <p class="pt-1">lorem ipsum</p>
+                                        </a>
+                                    </div>
+                                    
+                                    
+                                       
+                                    
+                                    
+                                
+                                </div>
+                                
+                            
+
+                        </div>
+                    
+                </div>
+                <div class="col-md-6 col-12 mx-auto mb-4">
+                    <div class="card boxwraper p-2">
+                        <h4 class="text-center">Your Friends</h4>
+                        
+                            <div class="boxwrp">
+                                
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                <div class="coll-3">
+                                    <a href="profile.html">
+                                        <img src="image/testimonials/testimonials-1.jpg" alt="" class="fdimg">
+                                    <p class="pt-1">lorem ipsum</p>
+                                    </a>
+                                </div>
+                                
+                                
+                                   
+                                
+                                
+                            
+                            </div>
+                            
+                        
+
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+
+   <script src="js/main.js"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
